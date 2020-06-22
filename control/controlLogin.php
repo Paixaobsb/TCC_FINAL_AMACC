@@ -10,13 +10,13 @@ if (isset($_POST['acessar'])) {
      * direciona para o menu
      */
     switch ($_POST['login']) {
-        case 'admin':
+        case 'admintrador':
             /**
              * redirecionar para administrador
              */
             header("location:/teste-tcc/view/manter-ong.php");
             break;
-        case 'user':
+        case 'representante':
             /**
              * redirecionar para usuario
              */
