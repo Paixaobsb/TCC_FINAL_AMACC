@@ -37,7 +37,7 @@
                         <td>06/04/2020</td>
                         <td>(61)998358899</td>
                         <td>alessandra.vilas.boas@outlook.com</td>
-                        <td>R$ 70,00</td>
+                        <td>R$ 25,00</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
