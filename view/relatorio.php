@@ -19,9 +19,14 @@
                         <th scope="col">Telefone</th>
                         <th scope="col">E-mail</th>
                         <th scope="col">Valor</th>
-                        <th><a href="#" class="btn btn-light">Emitir</a></th>
+                        <th><a href="#" class="btn btn-light" onclick="emitir()">Emitir</a></th>
                     </tr>
                 </thead>
+                <script lang="javascript">
+                    function emitir() {
+                        alert("Relatório ainda não disponível");
+                    }
+                </script>
                 <tbody>
                     <tr>
                         <th scope="row">1</th>
@@ -32,12 +37,12 @@
                         <td>R$ 200,00</td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>Alessandra Vilas Boas</td>
-                        <td>06/04/2020</td>
-                        <td>(61)998358899</td>
-                        <td>alessandra.vilas.boas@outlook.com</td>
-                        <td>R$ 25,00</td>
+                <thscope="row">2</th>
+                    <td>Alessandra Vilas Boas</td>
+                    <td>06/04/2020</td>
+                    <td>(61)998358899</td>
+                    <td>alessandra.vilas.boas@outlook.com</td>
+                    <td>R$ 25,00</td>
                     </tr>
                     <tr>
                         <th scope="row">3</th>
@@ -55,7 +60,7 @@
                         <td>jacquelineruivo.2019@outlook.com</td>
                         <td>R$ 110,00</td>
                     </tr>
-                </tbody>
+                    </tbody>
             </table>
         </fieldset>
         <a id="voltar" class="btn btn-success" <a href="javascript:void(0)" onClick="history.go(-1);" role="button">Voltar</a>
